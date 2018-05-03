@@ -234,15 +234,20 @@ columns that provide the following information.
 
 * The **Certificate Eligible** column indicates whether a learner is eligible
   for a certificate for your course. The value in this column is "Y" for
-  learners who attained a passing grade before this report was requested, and
-  for all whitelisted learners, regardless of grade attained. The value is "N"
-  for learners who did not attain a passing grade and for those who live in
-  embargoed countries.
+  the following learners.
+
+  * Learners who attained a passing grade before this report was requested,
+    including in an earlier session, or run, of the course.
+
+  * All whitelisted learners, regardless of grade.
+
+  The value is "N" for learners who did not attain a passing grade and
+  for those who live in embargoed countries.
 
 * For learners who are eligible to receive a certificate, the **Certificate
   Delivered** column has a value of "Y" when the certificates for a course have
   been generated. The value is "N" for learners who are not eligible to
-  receive a certificate.
+  receive a certificate, or before certificates have been generated.
 
 * The **Certificate Type** column indicates the type of certificate that the
   learner is eligible for, such as "honor" or "verified". If a learner is not
